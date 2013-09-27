@@ -7,144 +7,144 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DA3B702117979BD50002CA66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA3B702017979BD50002CA66 /* Foundation.framework */; };
-		DA3B702617979BD50002CA66 /* FLPCycle.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA3B702517979BD50002CA66 /* FLPCycle.h */; };
-		DA3B702817979BD50002CA66 /* FLPCycle.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3B702717979BD50002CA66 /* FLPCycle.m */; };
-		DA3B703017979BD50002CA66 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA3B702F17979BD50002CA66 /* SenTestingKit.framework */; };
-		DA3B703217979BD50002CA66 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA3B703117979BD50002CA66 /* UIKit.framework */; };
-		DA3B703317979BD50002CA66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA3B702017979BD50002CA66 /* Foundation.framework */; };
-		DA3B703617979BD50002CA66 /* libFLPCycle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA3B701D17979BD50002CA66 /* libFLPCycle.a */; };
-		DA3B703C17979BD50002CA66 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA3B703A17979BD50002CA66 /* InfoPlist.strings */; };
-		DAEAACB517979C3900A34F8E /* FLPCycleSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = DAEAACB417979C3900A34F8E /* FLPCycleSpec.m */; };
-		E3D63C4554894315B28F524E /* libPods-FLPCycleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B49831D408B54745AFF3018E /* libPods-FLPCycleTests.a */; };
+		6D2F33BA4FFE485087A819CC /* libPods-FLPCycleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 77311B1B63714DEF973EA396 /* libPods-FLPCycleTests.a */; };
+		DA7E993617F5BD550055FE3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA7E993517F5BD550055FE3B /* Foundation.framework */; };
+		DA7E993B17F5BD550055FE3B /* FLPCycle.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA7E993A17F5BD550055FE3B /* FLPCycle.h */; };
+		DA7E993D17F5BD550055FE3B /* FLPCycle.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7E993C17F5BD550055FE3B /* FLPCycle.m */; };
+		DA7E994417F5BD550055FE3B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA7E994317F5BD550055FE3B /* XCTest.framework */; };
+		DA7E994517F5BD550055FE3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA7E993517F5BD550055FE3B /* Foundation.framework */; };
+		DA7E994717F5BD550055FE3B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA7E994617F5BD550055FE3B /* UIKit.framework */; };
+		DA7E994A17F5BD550055FE3B /* libFLPCycle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA7E993217F5BD550055FE3B /* libFLPCycle.a */; };
+		DA7E995017F5BD550055FE3B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA7E994E17F5BD550055FE3B /* InfoPlist.strings */; };
+		DA7E995C17F5BEBC0055FE3B /* FLPCycleSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7E995B17F5BEBC0055FE3B /* FLPCycleSpec.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DA3B703417979BD50002CA66 /* PBXContainerItemProxy */ = {
+		DA7E994817F5BD550055FE3B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DA3B701517979BD50002CA66 /* Project object */;
+			containerPortal = DA7E992A17F5BD550055FE3B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DA3B701C17979BD50002CA66;
+			remoteGlobalIDString = DA7E993117F5BD550055FE3B;
 			remoteInfo = FLPCycle;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		DA3B701B17979BD50002CA66 /* CopyFiles */ = {
+		DA7E993017F5BD550055FE3B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = "include/${PRODUCT_NAME}";
+			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				DA3B702617979BD50002CA66 /* FLPCycle.h in CopyFiles */,
+				DA7E993B17F5BD550055FE3B /* FLPCycle.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		305C2BDFA1224DF182C18E50 /* Pods-FLPCycleTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLPCycleTests.xcconfig"; path = "Pods/Pods-FLPCycleTests.xcconfig"; sourceTree = SOURCE_ROOT; };
-		B49831D408B54745AFF3018E /* libPods-FLPCycleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FLPCycleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA3B701D17979BD50002CA66 /* libFLPCycle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFLPCycle.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA3B702017979BD50002CA66 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		DA3B702417979BD50002CA66 /* FLPCycle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FLPCycle-Prefix.pch"; sourceTree = "<group>"; };
-		DA3B702517979BD50002CA66 /* FLPCycle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLPCycle.h; sourceTree = "<group>"; };
-		DA3B702717979BD50002CA66 /* FLPCycle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLPCycle.m; sourceTree = "<group>"; };
-		DA3B702E17979BD50002CA66 /* FLPCycleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FLPCycleTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA3B702F17979BD50002CA66 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		DA3B703117979BD50002CA66 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		DA3B703917979BD50002CA66 /* FLPCycleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FLPCycleTests-Info.plist"; sourceTree = "<group>"; };
-		DA3B703B17979BD50002CA66 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DAEAACB417979C3900A34F8E /* FLPCycleSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLPCycleSpec.m; sourceTree = "<group>"; };
+		4C38ED3B9DD246F6B518B3E8 /* Pods-FLPCycleTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLPCycleTests.xcconfig"; path = "Pods/Pods-FLPCycleTests.xcconfig"; sourceTree = "<group>"; };
+		77311B1B63714DEF973EA396 /* libPods-FLPCycleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FLPCycleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA7E993217F5BD550055FE3B /* libFLPCycle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFLPCycle.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA7E993517F5BD550055FE3B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DA7E993917F5BD550055FE3B /* FLPCycle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FLPCycle-Prefix.pch"; sourceTree = "<group>"; };
+		DA7E993A17F5BD550055FE3B /* FLPCycle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLPCycle.h; sourceTree = "<group>"; };
+		DA7E993C17F5BD550055FE3B /* FLPCycle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLPCycle.m; sourceTree = "<group>"; };
+		DA7E994217F5BD550055FE3B /* FLPCycleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FLPCycleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA7E994317F5BD550055FE3B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DA7E994617F5BD550055FE3B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		DA7E994D17F5BD550055FE3B /* FLPCycleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FLPCycleTests-Info.plist"; sourceTree = "<group>"; };
+		DA7E994F17F5BD550055FE3B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DA7E995B17F5BEBC0055FE3B /* FLPCycleSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLPCycleSpec.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DA3B701A17979BD50002CA66 /* Frameworks */ = {
+		DA7E992F17F5BD550055FE3B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA3B702117979BD50002CA66 /* Foundation.framework in Frameworks */,
+				DA7E993617F5BD550055FE3B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DA3B702A17979BD50002CA66 /* Frameworks */ = {
+		DA7E993F17F5BD550055FE3B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA3B703017979BD50002CA66 /* SenTestingKit.framework in Frameworks */,
-				DA3B703217979BD50002CA66 /* UIKit.framework in Frameworks */,
-				DA3B703317979BD50002CA66 /* Foundation.framework in Frameworks */,
-				DA3B703617979BD50002CA66 /* libFLPCycle.a in Frameworks */,
-				E3D63C4554894315B28F524E /* libPods-FLPCycleTests.a in Frameworks */,
+				DA7E994417F5BD550055FE3B /* XCTest.framework in Frameworks */,
+				DA7E994A17F5BD550055FE3B /* libFLPCycle.a in Frameworks */,
+				DA7E994717F5BD550055FE3B /* UIKit.framework in Frameworks */,
+				DA7E994517F5BD550055FE3B /* Foundation.framework in Frameworks */,
+				6D2F33BA4FFE485087A819CC /* libPods-FLPCycleTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DA3B701417979BD50002CA66 = {
+		DA7E992917F5BD550055FE3B = {
 			isa = PBXGroup;
 			children = (
-				DA3B702217979BD50002CA66 /* FLPCycle */,
-				DA3B703717979BD50002CA66 /* FLPCycleTests */,
-				DA3B701F17979BD50002CA66 /* Frameworks */,
-				DA3B701E17979BD50002CA66 /* Products */,
-				305C2BDFA1224DF182C18E50 /* Pods-FLPCycleTests.xcconfig */,
+				DA7E993717F5BD550055FE3B /* FLPCycle */,
+				DA7E994B17F5BD550055FE3B /* FLPCycleTests */,
+				DA7E993417F5BD550055FE3B /* Frameworks */,
+				DA7E993317F5BD550055FE3B /* Products */,
+				4C38ED3B9DD246F6B518B3E8 /* Pods-FLPCycleTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
-		DA3B701E17979BD50002CA66 /* Products */ = {
+		DA7E993317F5BD550055FE3B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DA3B701D17979BD50002CA66 /* libFLPCycle.a */,
-				DA3B702E17979BD50002CA66 /* FLPCycleTests.octest */,
+				DA7E993217F5BD550055FE3B /* libFLPCycle.a */,
+				DA7E994217F5BD550055FE3B /* FLPCycleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DA3B701F17979BD50002CA66 /* Frameworks */ = {
+		DA7E993417F5BD550055FE3B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DA3B702017979BD50002CA66 /* Foundation.framework */,
-				DA3B702F17979BD50002CA66 /* SenTestingKit.framework */,
-				DA3B703117979BD50002CA66 /* UIKit.framework */,
-				B49831D408B54745AFF3018E /* libPods-FLPCycleTests.a */,
+				DA7E993517F5BD550055FE3B /* Foundation.framework */,
+				DA7E994317F5BD550055FE3B /* XCTest.framework */,
+				DA7E994617F5BD550055FE3B /* UIKit.framework */,
+				77311B1B63714DEF973EA396 /* libPods-FLPCycleTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DA3B702217979BD50002CA66 /* FLPCycle */ = {
+		DA7E993717F5BD550055FE3B /* FLPCycle */ = {
 			isa = PBXGroup;
 			children = (
-				DA3B702517979BD50002CA66 /* FLPCycle.h */,
-				DA3B702717979BD50002CA66 /* FLPCycle.m */,
-				DA3B702317979BD50002CA66 /* Supporting Files */,
+				DA7E993A17F5BD550055FE3B /* FLPCycle.h */,
+				DA7E993C17F5BD550055FE3B /* FLPCycle.m */,
+				DA7E993817F5BD550055FE3B /* Supporting Files */,
 			);
 			path = FLPCycle;
 			sourceTree = "<group>";
 		};
-		DA3B702317979BD50002CA66 /* Supporting Files */ = {
+		DA7E993817F5BD550055FE3B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				DA3B702417979BD50002CA66 /* FLPCycle-Prefix.pch */,
+				DA7E993917F5BD550055FE3B /* FLPCycle-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		DA3B703717979BD50002CA66 /* FLPCycleTests */ = {
+		DA7E994B17F5BD550055FE3B /* FLPCycleTests */ = {
 			isa = PBXGroup;
 			children = (
-				DAEAACB417979C3900A34F8E /* FLPCycleSpec.m */,
-				DA3B703817979BD50002CA66 /* Supporting Files */,
+				DA7E995B17F5BEBC0055FE3B /* FLPCycleSpec.m */,
+				DA7E994C17F5BD550055FE3B /* Supporting Files */,
 			);
 			path = FLPCycleTests;
 			sourceTree = "<group>";
 		};
-		DA3B703817979BD50002CA66 /* Supporting Files */ = {
+		DA7E994C17F5BD550055FE3B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				DA3B703917979BD50002CA66 /* FLPCycleTests-Info.plist */,
-				DA3B703A17979BD50002CA66 /* InfoPlist.strings */,
+				DA7E994D17F5BD550055FE3B /* FLPCycleTests-Info.plist */,
+				DA7E994E17F5BD550055FE3B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -152,13 +152,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DA3B701C17979BD50002CA66 /* FLPCycle */ = {
+		DA7E993117F5BD550055FE3B /* FLPCycle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA3B704217979BD50002CA66 /* Build configuration list for PBXNativeTarget "FLPCycle" */;
+			buildConfigurationList = DA7E995517F5BD550055FE3B /* Build configuration list for PBXNativeTarget "FLPCycle" */;
 			buildPhases = (
-				DA3B701917979BD50002CA66 /* Sources */,
-				DA3B701A17979BD50002CA66 /* Frameworks */,
-				DA3B701B17979BD50002CA66 /* CopyFiles */,
+				DA7E992E17F5BD550055FE3B /* Sources */,
+				DA7E992F17F5BD550055FE3B /* Frameworks */,
+				DA7E993017F5BD550055FE3B /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -166,70 +166,69 @@
 			);
 			name = FLPCycle;
 			productName = FLPCycle;
-			productReference = DA3B701D17979BD50002CA66 /* libFLPCycle.a */;
+			productReference = DA7E993217F5BD550055FE3B /* libFLPCycle.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		DA3B702D17979BD50002CA66 /* FLPCycleTests */ = {
+		DA7E994117F5BD550055FE3B /* FLPCycleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA3B704517979BD50002CA66 /* Build configuration list for PBXNativeTarget "FLPCycleTests" */;
+			buildConfigurationList = DA7E995817F5BD550055FE3B /* Build configuration list for PBXNativeTarget "FLPCycleTests" */;
 			buildPhases = (
-				7C1C11958D844D36923388A9 /* Check Pods Manifest.lock */,
-				DA3B702917979BD50002CA66 /* Sources */,
-				DA3B702A17979BD50002CA66 /* Frameworks */,
-				DA3B702B17979BD50002CA66 /* Resources */,
-				DA3B702C17979BD50002CA66 /* ShellScript */,
-				94945576A9384C2380C5FF1D /* Copy Pods Resources */,
+				36801DF0AA2048F1ADBEE8C4 /* Check Pods Manifest.lock */,
+				DA7E993E17F5BD550055FE3B /* Sources */,
+				DA7E993F17F5BD550055FE3B /* Frameworks */,
+				DA7E994017F5BD550055FE3B /* Resources */,
+				EC9EEA0C7D104B3BB4E28EC6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DA3B703517979BD50002CA66 /* PBXTargetDependency */,
+				DA7E994917F5BD550055FE3B /* PBXTargetDependency */,
 			);
 			name = FLPCycleTests;
 			productName = FLPCycleTests;
-			productReference = DA3B702E17979BD50002CA66 /* FLPCycleTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productReference = DA7E994217F5BD550055FE3B /* FLPCycleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DA3B701517979BD50002CA66 /* Project object */ = {
+		DA7E992A17F5BD550055FE3B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Fullpath, LLC";
 			};
-			buildConfigurationList = DA3B701817979BD50002CA66 /* Build configuration list for PBXProject "FLPCycle" */;
+			buildConfigurationList = DA7E992D17F5BD550055FE3B /* Build configuration list for PBXProject "FLPCycle" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = DA3B701417979BD50002CA66;
-			productRefGroup = DA3B701E17979BD50002CA66 /* Products */;
+			mainGroup = DA7E992917F5BD550055FE3B;
+			productRefGroup = DA7E993317F5BD550055FE3B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DA3B701C17979BD50002CA66 /* FLPCycle */,
-				DA3B702D17979BD50002CA66 /* FLPCycleTests */,
+				DA7E993117F5BD550055FE3B /* FLPCycle */,
+				DA7E994117F5BD550055FE3B /* FLPCycleTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DA3B702B17979BD50002CA66 /* Resources */ = {
+		DA7E994017F5BD550055FE3B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA3B703C17979BD50002CA66 /* InfoPlist.strings in Resources */,
+				DA7E995017F5BD550055FE3B /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7C1C11958D844D36923388A9 /* Check Pods Manifest.lock */ = {
+		36801DF0AA2048F1ADBEE8C4 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -244,7 +243,7 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		94945576A9384C2380C5FF1D /* Copy Pods Resources */ = {
+		EC9EEA0C7D104B3BB4E28EC6 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -259,53 +258,40 @@
 			shellScript = "\"${SRCROOT}/Pods/Pods-FLPCycleTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DA3B702C17979BD50002CA66 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DA3B701917979BD50002CA66 /* Sources */ = {
+		DA7E992E17F5BD550055FE3B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA3B702817979BD50002CA66 /* FLPCycle.m in Sources */,
+				DA7E993D17F5BD550055FE3B /* FLPCycle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DA3B702917979BD50002CA66 /* Sources */ = {
+		DA7E993E17F5BD550055FE3B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAEAACB517979C3900A34F8E /* FLPCycleSpec.m in Sources */,
+				DA7E995C17F5BEBC0055FE3B /* FLPCycleSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DA3B703517979BD50002CA66 /* PBXTargetDependency */ = {
+		DA7E994917F5BD550055FE3B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DA3B701C17979BD50002CA66 /* FLPCycle */;
-			targetProxy = DA3B703417979BD50002CA66 /* PBXContainerItemProxy */;
+			target = DA7E993117F5BD550055FE3B /* FLPCycle */;
+			targetProxy = DA7E994817F5BD550055FE3B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DA3B703A17979BD50002CA66 /* InfoPlist.strings */ = {
+		DA7E994E17F5BD550055FE3B /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DA3B703B17979BD50002CA66 /* en */,
+				DA7E994F17F5BD550055FE3B /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -313,19 +299,23 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		DA3B704017979BD50002CA66 /* Debug */ = {
+		DA7E995317F5BD550055FE3B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -335,40 +325,51 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		DA3B704117979BD50002CA66 /* Release */ = {
+		DA7E995417F5BD550055FE3B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		DA3B704317979BD50002CA66 /* Debug */ = {
+		DA7E995617F5BD550055FE3B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DSTROOT = /tmp/FLPCycle.dst;
@@ -380,7 +381,7 @@
 			};
 			name = Debug;
 		};
-		DA3B704417979BD50002CA66 /* Release */ = {
+		DA7E995717F5BD550055FE3B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DSTROOT = /tmp/FLPCycle.dst;
@@ -392,69 +393,77 @@
 			};
 			name = Release;
 		};
-		DA3B704617979BD50002CA66 /* Debug */ = {
+		DA7E995917F5BD550055FE3B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 305C2BDFA1224DF182C18E50 /* Pods-FLPCycleTests.xcconfig */;
+			baseConfigurationReference = 4C38ED3B9DD246F6B518B3E8 /* Pods-FLPCycleTests.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FLPCycle/FLPCycle-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = "FLPCycleTests/FLPCycleTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
+				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
 		};
-		DA3B704717979BD50002CA66 /* Release */ = {
+		DA7E995A17F5BD550055FE3B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 305C2BDFA1224DF182C18E50 /* Pods-FLPCycleTests.xcconfig */;
+			baseConfigurationReference = 4C38ED3B9DD246F6B518B3E8 /* Pods-FLPCycleTests.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FLPCycle/FLPCycle-Prefix.pch";
 				INFOPLIST_FILE = "FLPCycleTests/FLPCycleTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
+				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DA3B701817979BD50002CA66 /* Build configuration list for PBXProject "FLPCycle" */ = {
+		DA7E992D17F5BD550055FE3B /* Build configuration list for PBXProject "FLPCycle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DA3B704017979BD50002CA66 /* Debug */,
-				DA3B704117979BD50002CA66 /* Release */,
+				DA7E995317F5BD550055FE3B /* Debug */,
+				DA7E995417F5BD550055FE3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DA3B704217979BD50002CA66 /* Build configuration list for PBXNativeTarget "FLPCycle" */ = {
+		DA7E995517F5BD550055FE3B /* Build configuration list for PBXNativeTarget "FLPCycle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DA3B704317979BD50002CA66 /* Debug */,
-				DA3B704417979BD50002CA66 /* Release */,
+				DA7E995617F5BD550055FE3B /* Debug */,
+				DA7E995717F5BD550055FE3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DA3B704517979BD50002CA66 /* Build configuration list for PBXNativeTarget "FLPCycleTests" */ = {
+		DA7E995817F5BD550055FE3B /* Build configuration list for PBXNativeTarget "FLPCycleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DA3B704617979BD50002CA66 /* Debug */,
-				DA3B704717979BD50002CA66 /* Release */,
+				DA7E995917F5BD550055FE3B /* Debug */,
+				DA7E995A17F5BD550055FE3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DA3B701517979BD50002CA66 /* Project object */;
+	rootObject = DA7E992A17F5BD550055FE3B /* Project object */;
 }

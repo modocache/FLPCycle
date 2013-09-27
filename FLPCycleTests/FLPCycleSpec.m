@@ -2,14 +2,12 @@
 //  FLPCycleSpec.m
 //  FLPCycle
 //
-//  Created by Brian Ivan Gesiak on 7/17/13.
+//  Created by Brian Ivan Gesiak on 9/27/13.
 //  Copyright 2013 Fullpath, LLC. All rights reserved.
 //
 
-
 #import <Kiwi/Kiwi.h>
 #import "FLPCycle.h"
-
 
 SPEC_BEGIN(FLPCycleSpec)
 
@@ -41,8 +39,7 @@ describe(@"FLPCycle", ^{
 
         context(@"when the cycle has multiple objects", ^{
             beforeEach(^{
-                NSArray *array =
-                    [NSArray arrayWithObjects:@"red", @"green", @"refactor", nil];
+                NSArray *array = [NSArray arrayWithObjects:@"red", @"green", @"refactor", nil];
                 cycle = [FLPCycle cycleWithArray:array];
             });
 
@@ -80,8 +77,7 @@ describe(@"FLPCycle", ^{
 
         context(@"when the cycle has multiple objects", ^{
             beforeEach(^{
-                NSArray *array =
-                    [NSArray arrayWithObjects:@"red", @"green", @"refactor", nil];
+                NSArray *array = [NSArray arrayWithObjects:@"red", @"green", @"refactor", nil];
                 cycle = [FLPCycle cycleWithArray:array];
             });
 
@@ -96,8 +92,7 @@ describe(@"FLPCycle", ^{
 
     describe(@"-reset", ^{
         it(@"returns the cycle to the beginning", ^{
-            NSArray *array =
-                [NSArray arrayWithObjects:@"red", @"green", nil];
+            NSArray *array = [NSArray arrayWithObjects:@"red", @"green", nil];
             cycle = [FLPCycle cycleWithArray:array];
             [cycle nextObject];
 
@@ -109,4 +104,3 @@ describe(@"FLPCycle", ^{
 });
 
 SPEC_END
-

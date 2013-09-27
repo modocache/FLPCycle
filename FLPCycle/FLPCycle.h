@@ -2,7 +2,7 @@
 //  FLPCycle.h
 //  FLPCycle
 //
-//  Created by Brian Ivan Gesiak on 7/17/13.
+//  Created by Brian Ivan Gesiak on 9/27/13.
 //  Copyright (c) 2013 Fullpath, LLC. All rights reserved.
 //
 

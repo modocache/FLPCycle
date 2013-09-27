@@ -1,6 +1,6 @@
-platform :ios
+platform :ios, '7.0'
 
 target :FLPCycleTests, :exclusive => true do
-  pod 'Kiwi', '~> 2.0.0'
+  pod 'Kiwi/XCTest'
 end
 
